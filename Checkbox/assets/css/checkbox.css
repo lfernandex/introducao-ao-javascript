@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(241, 233, 233);
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 500px;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 500px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+
+
+.criador{
+    border-top: 1px solid transparent;
+    bottom: 0;
+    left: flex;
+    height: flex;
+    position: fixed;
+    width: 100%;
+  }
+
+
+
+
+
